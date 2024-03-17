@@ -22,11 +22,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 using UnityEngine;
-using UnityEngine.XR;
 using GorillaLocomotion;
-using CSCore;
 using dingus;
-using Photon.Voice;
 
 namespace DevHoldableEngine
 {
@@ -75,7 +72,6 @@ namespace DevHoldableEngine
                 }
             }
         }
-
         public void Update()
         {
             bool leftGrip = ControllerInputPoller.instance.leftGrab;
